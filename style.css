@@ -1,0 +1,232 @@
+ body {
+    background-color: #1a1a1a;
+  }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color: #f00;
+  }
+  .active {
+    color: #f00;
+  }
+  #banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  #banner h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+  #banner p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  #banner button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #f00;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+  #banner button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #f00;
+  } 
+  #banner button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #f00;
+  }
+  #about, #projects, #contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+    clear: both;
+  }
+  #about h2, #projects h2, #contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  #about p, #projects p, #contact p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #about, #projects, #contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+  }
+  #about h2, #projects h2, #contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  #about p, #projects p, #contact p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #about img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  #projects .card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+  #projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#projects .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+#projects .card-body {
+  padding: 1rem;
+}
+#projects .card-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#projects .card-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#projects .card-link {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #f00;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+#projects .card-link:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #f00;
+}
+.contact {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #fff;
+  }
+
+  .contact h2 {
+    margin-top: 0;
+  }
+
+  .contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+
+  .contact textarea {
+    height: 150px;
+  }
+
+  .contact input[type="submit"] {
+    background-color: #a10a97;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .contact input[type="submit"]:hover {
+    background-color: #a10a97;
+  }
+/* Footer Styles */
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-icons a {
+  color: #555;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.footer-icons a:hover {
+  color: #7f10ca;
+}
+
+footer p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  footer .social-icons {
+    margin-top: 10px;
+  }
+}
